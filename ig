@@ -23,10 +23,10 @@ printf " \e[44m CODE RE BY TECH COCHI \e[0m\n"
 printf " \n"
 }
 menu() {
-printf " \e[1;31m[\e[0m\e[1;77m01\e[0m\e[1;31m]\e[0m\e[1;92m instagram \e[0m\n"
+printf " \e[1;31m[\e[0m\e[1;77m01\e[0m\e[1;31m]\e[0m\e[1;92m instav \e[0m\n"
 read -p $' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;93m Select an option: \e[0m\e[1;91m\en' option
 if [[ $option == 1 || $option == 01 ]]; then
-server="instagram"
+server="instav"
 start
 exit 1
 else
